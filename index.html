@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Satyajit Study Sphere — study resources, current affairs, PDFs, answer writing, motivation and healthy study habits for competitive exam aspirants.">
+<title>Satyajit Study Sphere</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Libre+Baskerville:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <div class="container nav">
+    <a class="logo" href="#home"><span>SS</span><div><b>SATYAJIT</b><small>STUDY SPHERE</small></div></a>
+    <button class="menu" aria-label="Open navigation">☰</button>
+    <nav>
+      <a href="#exams">Exams</a><a href="#materials">Study Materials</a><a href="#current">Current Affairs</a>
+      <a href="#answer">Answer Writing</a><a href="#mind">Mind & Motivation</a><a href="#about">About</a>
+    </nav>
+  </div>
+</header>
+
+<main id="home">
+<section class="hero">
+ <div class="container hero-inner">
+   <div class="hero-copy">
+    <p class="kicker">A PERSONAL LEARNING PLATFORM</p>
+    <h1>Prepare with clarity.<br><em>Progress with purpose.</em></h1>
+    <p class="lead">Study resources, current affairs, PDFs, answer-writing guidance, motivation and healthy study habits — organised for serious competitive-exam preparation.</p>
+    <div class="buttons"><a class="btn primary" href="#materials">Explore Resources</a><a class="btn secondary" href="#about">About the Sphere</a></div>
+   </div>
+   <div class="hero-card">
+     <span class="card-label">TODAY'S REMINDER</span>
+     <p>“Consistency turns ordinary study into extraordinary preparation.”</p>
+     <small>— Satyajit Study Sphere</small>
+   </div>
+ </div>
+</section>
+
+<section class="search-section">
+ <div class="container">
+   <div class="searchbox"><span>⌕</span><input id="search" type="search" placeholder="Search notes, PDFs, current affairs, topics..."><button onclick="doSearch()">Search</button></div>
+   <p id="searchResult"></p>
+ </div>
+</section>
+
+<section id="exams" class="section">
+ <div class="container">
+  <div class="heading"><p class="kicker">EXAM PREPARATION</p><h2>Choose your preparation path.</h2><p>Start broad and organise your preparation by examination, subject and stage.</p></div>
+  <div class="exam-grid">
+   <article><span>01</span><h3>UPSC</h3><p>GS, current affairs, answer writing, essays and revision resources.</p><a href="#materials">Explore →</a></article>
+   <article><span>02</span><h3>OPSC</h3><p>State-focused preparation, Odisha-related resources and practice.</p><a href="#materials">Explore →</a></article>
+   <article><span>03</span><h3>Other Exams</h3><p>SSC, banking, railways and other competitive examinations.</p><a href="#materials">Explore →</a></article>
+  </div>
+ </div>
+</section>
+
+<section id="materials" class="section cream">
+ <div class="container">
+  <div class="heading row"><div><p class="kicker">STUDY MATERIALS</p><h2>Learn. Revise. Repeat.</h2></div><a class="text-link" href="#materials">View all resources →</a></div>
+  <div class="resource-grid" id="resourceGrid">
+   <article class="resource" data-tags="polity constitution gs notes"><div class="resource-icon">01</div><p>POLITY</p><h3>Constitution & Governance</h3><span>Notes • Revision</span></article>
+   <article class="resource" data-tags="economy inflation budget economy notes"><div class="resource-icon">02</div><p>ECONOMY</p><h3>Economy Quick Revision</h3><span>Concepts • Current links</span></article>
+   <article class="resource" data-tags="environment ecology science environment"><div class="resource-icon">03</div><p>ENVIRONMENT</p><h3>Environment & Ecology</h3><span>Notes • Facts</span></article>
+   <article class="resource" data-tags="history culture history art culture"><div class="resource-icon">04</div><p>HISTORY</p><h3>History & Culture</h3><span>Short notes • Revision</span></article>
+  </div>
+ </div>
+</section>
+
+<section id="current" class="section">
+ <div class="container two-col">
+  <div><p class="kicker">CURRENT AFFAIRS</p><h2>Connect events with the syllabus.</h2><p class="muted">The aim is not to collect news. It is to understand why an event matters, where it fits in the syllabus, and how it can be used in an answer.</p><a class="btn dark" href="#materials">Browse topics</a></div>
+  <div class="current-list">
+   <div><b>01</b><span><strong>National Issues</strong><small>Governance • Social sector • Policy</small></span></div>
+   <div><b>02</b><span><strong>Economy & Business</strong><small>Growth • Inflation • Budget • Reforms</small></span></div>
+   <div><b>03</b><span><strong>Science & Technology</strong><small>Innovation • Space • Emerging technology</small></span></div>
+   <div><b>04</b><span><strong>World & Environment</strong><small>IR • Climate • Biodiversity</small></span></div>
+  </div>
+ </div>
+</section>
+
+<section id="answer" class="section dark-section">
+ <div class="container two-col">
+  <div><p class="kicker">ANSWER WRITING</p><h2>Write answers that communicate.</h2><p>Build a repeatable approach to introductions, analysis, examples, structure, conclusions and time management.</p></div>
+  <div class="answer-cards">
+   <div><span>01</span><h3>Introduction</h3><p>Context, definition, constitutional or conceptual framing.</p></div>
+   <div><span>02</span><h3>Body</h3><p>Arguments, dimensions, examples, data and balanced analysis.</p></div>
+   <div><span>03</span><h3>Conclusion</h3><p>Forward-looking, practical and solution-oriented closure.</p></div>
+  </div>
+ </div>
+</section>
+
+<section id="mind" class="section cream">
+ <div class="container mind-grid">
+  <div class="mind-main"><p class="kicker">MIND • MOTIVATION • HEALTHY STUDY</p><h2>A strong preparation needs a healthy mind.</h2><p class="muted">Competitive examinations demand sustained effort. This section focuses on practical habits that support concentration, consistency, recovery and a balanced approach to preparation.</p></div>
+  <div class="quote"><span>DAILY NOTE</span><blockquote>“Do not measure your preparation only by hours. Measure it by what you understood, revised and retained.”</blockquote></div>
+ </div>
+ <div class="container habit-grid">
+  <div><b>01</b><h3>Consistency</h3><p>Build a realistic study routine you can maintain.</p></div>
+  <div><b>02</b><h3>Focus</h3><p>Reduce distractions and study in deliberate blocks.</p></div>
+  <div><b>03</b><h3>Recovery</h3><p>Respect sleep, breaks, movement and mental recovery.</p></div>
+ </div>
+</section>
+
+<section class="section pdf-section">
+ <div class="container pdf-grid">
+  <div><p class="kicker">PDF LIBRARY</p><h2>Your study shelf, online.</h2><p class="muted">Add your own PDFs, revision sheets, monthly current-affairs compilations and other resources here as the platform grows.</p></div>
+  <div class="pdf-card"><div class="pdf-symbol">PDF</div><div><b>PDF LIBRARY</b><p>Upload your first study resource to begin.</p></div><button onclick="alert('PDF upload will be added when you connect your own resource files.')">Coming Soon</button></div>
+ </div>
+</section>
+
+<section id="about" class="section about">
+ <div class="container about-grid">
+  <div><p class="kicker">ABOUT SATYAJIT STUDY SPHERE</p><h2>A space for better preparation.</h2></div>
+  <div><p>This platform is being built as a practical, organised learning space for students preparing for competitive examinations. The goal is simple: make useful study material easier to find, understand, revise and apply.</p><p class="muted">As the site grows, it can become a searchable library of original notes, curated resources, PDFs, current-affairs analysis, answer-writing guidance and student-focused wellbeing content.</p></div>
+ </div>
+</section>
+</main>
+
+<footer><div class="container footer"><div class="logo"><span>SS</span><div><b>SATYAJIT</b><small>STUDY SPHERE</small></div></div><p>© <span id="year"></span> Satyajit Study Sphere</p></div></footer>
+
+<script src="script.js"></script>
+</body>
+</html>
